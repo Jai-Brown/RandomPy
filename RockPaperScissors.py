@@ -53,9 +53,9 @@ class RockPaperScissors(object):
     def get_input():
         """ Retrieves the user's input with a menu style prompt.
 
-            @rtype:  int
-            @return: The user's input, minus one.
-            """
+        @rtype:  int
+        @return: The user's input, minus one.
+        """
         choice = None
         while True:
             try:
