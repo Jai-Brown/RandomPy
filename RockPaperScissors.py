@@ -66,8 +66,9 @@ class RockPaperScissors(object):
                     raise ValueError()
                 else:
                     break
-            except ValueError:
+            except (ValueError, SyntaxError):
                 print('Invalid input!')
+
         if choice == 4:
             exit()
         return choice - 1
